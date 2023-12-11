@@ -112,4 +112,10 @@ nums[0] // array indexing
 // iterates over nums array and returns new, transformed array
 const squaredNums = nums.map((num) => num ** 2)
 
-// console.log(squaredNums)
+console.log(squaredNums)
+
+const cubedNums = nums.map(num => num ** 3)
+
+
+console.log("🚀 ~ file: sandbox.js:118 ~ cubedNums:", cubedNums)
+
